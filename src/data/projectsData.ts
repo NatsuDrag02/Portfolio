@@ -4,10 +4,10 @@ import image3 from './ProjetoSpring2.jpeg';
 import image4 from './SwaggerSpring.jpeg';
 import image5 from './projetodedados.png';
 import image6 from './projetodedados2.png';
-import image7 from './projetoIa.jpeg'
-import image8 from './projetoIa2.jpeg';
-import image9 from './projetoIa3.png';
-import image10 from './projetoIa4.png';
+import image7 from './projetoIa.jpeg';
+import image8 from './ProjetoIa2.jpeg';
+import image9 from './ProjetoIa3.png';
+import image10 from './ProjetoIa4.png';
 
 
 
