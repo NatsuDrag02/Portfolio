@@ -68,17 +68,14 @@ const Hero: React.FC = () => {
 
           {/* CTA Button */}
           <button
-            onClick={scrollToAbout}
-            className="group inline-flex items-center space-x-3 bg-gradient-to-r from-purple-600 to-blue-600 text-white px-8 py-4 rounded-full font-semibold hover:shadow-xl transition-all duration-300 hover:scale-105"
-          >
-            <span>Conheça meu trabalho</span>
-            <ArrowDown className="w-5 h-5 group-hover:translate-y-1 transition-transform" />
-          </button>
-        </div>
-      </div>
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounceDown">
-  <span className="text-4xl select-none">👇</span>
-</div>
+      onClick={scrollToAbout}
+      className="group inline-flex items-center space-x-3 bg-gradient-to-r from-purple-600 to-blue-600 text-white px-8 py-4 rounded-full font-semibold hover:shadow-xl transition-all duration-300 hover:scale-105"
+    >
+      <span>Conheça meu trabalho</span>
+      <ArrowDown className="w-5 h-5 group-hover:translate-y-1 transition-transform" />
+    </button>
+  </div>
+  </div>
 
 
     </section>

@@ -115,7 +115,8 @@ const Interests: React.FC = () => {
             <div className="bg-white dark:bg-gray-800 rounded-3xl shadow-2xl overflow-hidden">
               {/* Header */}
               <div className={`bg-gradient-to-r ${currentInterest.color} p-8 text-white`}>
-                <div className="flex items-center justify-between">
+                <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+
                   <div className="flex items-center">
                     <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mr-6">
                       <currentInterest.icon className="w-8 h-8" />
