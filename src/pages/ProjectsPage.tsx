@@ -14,7 +14,7 @@ const ProjectsPage: React.FC = () => {
 
           {/* Botão voltar para a home */}
           <a
-            href="http://localhost:5173"
+            href="/"
             className="flex items-center space-x-2 text-gray-600 dark:text-gray-400 hover:text-purple-600 dark:hover:text-purple-400 transition-colors mb-8"
           >
             <ArrowLeft className="w-5 h-5" />
