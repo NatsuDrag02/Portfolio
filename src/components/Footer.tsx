@@ -87,12 +87,12 @@ const Footer: React.FC = () => {
           </div>
 
           <div className="border-t border-gray-800 dark:border-gray-700 mt-8 pt-8 text-center">
-            <p className="text-gray-400 dark:text-gray-500 flex items-center justify-center">
-              © {currentYear} Caio Nascimento. Feito com 
-              <Heart className="w-4 h-4 mx-1 text-red-500" /> 
-              e muito código.
-            </p>
-          </div>
+  <p className="text-gray-400 dark:text-gray-500 flex flex-wrap justify-center items-center gap-1">
+    © {currentYear} Caio Nascimento. Feito com
+    <Heart className="w-4 h-4 text-red-500 mx-1 inline" />
+    e muito código.
+  </p>
+</div>
         </div>
       </div>
     </footer>
